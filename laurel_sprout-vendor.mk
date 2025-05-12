@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/laurel_sprout
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/laurel_sprout/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/laurel_sprout/proprietary/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
     vendor/xiaomi/laurel_sprout/proprietary/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
     vendor/xiaomi/laurel_sprout/proprietary/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
@@ -30,9 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/camera/fonts/MFYueYuan-Regular.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MFYueYuan-Regular.ttf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/camera/fonts/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MIUI_Time.ttf \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Codec_cal.acdb \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
